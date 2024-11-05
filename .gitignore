@@ -1,0 +1,9 @@
+immomlvenv/
+utils/__pycache__
+test_Categorical_encoder.py
+test_Missing_value_remover.py
+test_Models_trainer.py
+test_Outlier_remover.py
+data/clean_data_no_outliers.csv
+data/encoded_data.csv
+data/clean_data_no_mv.csv
