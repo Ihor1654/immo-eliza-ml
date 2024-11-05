@@ -49,7 +49,7 @@ The project explores several machine learning models, starting with a baseline E
 Follow these steps to set up your project environment:
 
 - **Clone the repository**
-  `git clone git@github.com:Yanina-Andriienko/immo-eliza-ml.git`
+  `git clone git@github.com:Ihor1654/immo-eliza-ml.git`
 - **Navigate to the project directory**
   `cd immo-eliza-ml`
 - **Install the required dependencies**
