@@ -61,8 +61,6 @@ To train the model and make predictions, run the following scripts:
 
 - **To preprocess the data and train the model:**
   `python main.py`
-- **To make predictions on new data:**
-  `python predict_rf.py -i path/to/newdata.csv -o path/to/predictions.csv`
 
 ## 📈 Performance
 
