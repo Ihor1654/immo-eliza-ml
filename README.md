@@ -1,4 +1,11 @@
+
+
 # 🏡 Real Estate Price Prediction - Immo Eliza
+![Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)
+![Pandas](https://img.shields.io/badge/uses-Pandas-blue.svg)
+![Matplotlib](https://img.shields.io/badge/uses-Matplotlib-blue.svg)
+![Scikit-learn](https://img.shields.io/badge/uses-Scikit--learn-orange.svg)
+
 
 ## 📑 Table of Contents
 
@@ -15,6 +22,28 @@
 ## 🔎 Project Overview
 
 This project aims to predict real estate prices in Belgium using various machine learning models. The primary objective is to provide accurate price estimates for properties based on their features like location, area, number of bedrooms, etc.
+## 🧬 Project structure
+
+```
+
+Immo-eliza-ML/
+│
+├── data/
+│   └── clean_data_with_mv.csv                --- data: training dataset (.csv)
+│
+├── utils/                    --- definition code: Classes for clean, impute & encode data
+│   └── creator.py            --- Class creates and train the model
+│   └── removing_missing_val.py --- Class cleans data from missing values
+│   └── removing_outliers.py --- Class removes outliers
+│   └── training_models.py  --- Class creates and trains models
+│   └── encoding_categorical.py ---Class encodes all categorival values in Dataset
+│
+├── .gitignore
+├── requirements.txt
+├── main.py   --- execution code: preprocess data and train models.
+└── README.md
+```
+
 
 ## 📊 Dataset
 
@@ -65,12 +94,29 @@ To train the model and make predictions, run the following scripts:
 ## 📈 Performance
 
 The best-performing model (XGBoost model) achieved an R² score of 0.75 on the test set, indicating that it can explain 75% of the variance in property prices.
+```
+
+| Model           | MAE         |   RMSE         | R2    |
+|                 |             |                |       |
+| LinearRegressor | 66,670.13   | 93,728.26      | 0.67  |
+| XGBoost         | 56,741.12   | 82,076.52      | 0.75  |
+| Random Forest   | 70,506.67   | 101,496.22     | 0.62  |
+
+
+```
 
 ## ⚠️ Limitations
 
 - The model relies heavily on the quality and comprehensiveness of the input data.
 - It does not account for market trends or economic conditions.
 - The model's predictions are specific to Belgium and may not generalize well to other regions.
+
+## 📂 Project background & timeline
+
+This is the third phase of a four-phase project to create a complete ML pipeline for predicting residential property prices. This project phase took one week to complete in October 2024. For to see previous parts check my github [account](https://github.com/Ihor1654)
+
+The project was completed as part of my 7-month AI training bootcamp at BeCode in Ghent, Belgium.
+
 
 ## 👥 Contributors
 
