@@ -24,8 +24,7 @@ The dataset used in this project contains information about real estate properti
 
 | Feature              | Description                                                         |
 | -------------------- | ------------------------------------------------------------------- |
-| `locality_name`           | The locality where the property is located.                         |
-| 
+| `locality_name`           | The locality where the property is located.                         | 
 | `price`              | The price of the property in euros.                                 |
 | `state_of_building` | The condition or state of the property (e.g., new, to renovate).    |
 | `living_area`        | The living area of the property in square meters.                   |
