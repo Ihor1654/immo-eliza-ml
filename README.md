@@ -38,7 +38,7 @@ The dataset used in this project contains information about real estate properti
 | `facades`          | Number of frontage for the property.        |
 | `land_area`       | The land area of the property in square meters.   |
 | `type_of_property`     | Indicates type of property (House or Apartment ).              |
-| `subtype_of_property`         | Indicates type of property (e.g Chale, Castle,Villa etc ).                    |
+| `subtype_of_property`         | Indicates subtype of property (e.g Chale, Castle,Villa etc ).                    |
 | `furnished`         | Indicates if the property is furnished (1: Yes, 0: No).                    |
 ## 🤖 Model
 
