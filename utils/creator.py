@@ -10,7 +10,7 @@ class Creator:
         self.mv_remover = Missing_value_remover()
         self.outlier_remover = Outlier_remover()
         self.encoder = Categorical_encoder()
-        self.trainer = Models_trainer()
+        self.trainer = None
 
     def preproceed_data(self):
         self.mv_remover.remov_all_missing_values()
@@ -19,6 +19,6 @@ class Creator:
     
     def create_models(self):
         self.preproceed_data()
-        self.trainer.split_data_Set()
-        self.trainer.train_linearregression()
-        self.trainer.train_xgb()
+        self.trainer = Models_trainer()
+        self.trainer.saving_LinearRegressionModel()
+        self.trainer.saving_XGBmodel()

@@ -1,11 +1,10 @@
 
 
 # 🏡 Real Estate Price Prediction - Immo Eliza
-![Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)
-![Pandas](https://img.shields.io/badge/uses-Pandas-blue.svg)
+![Python](https://img.shields.io/badge/Made_with-Python-blue?logo=python&labelColor=%23778899&color=%233776AB)
+![Pandas](https://img.shields.io/badge/uses-Pandas-blue?logo=pandas&labelColor=%23778899&color=%23150458)
 ![Matplotlib](https://img.shields.io/badge/uses-Matplotlib-blue.svg)
-![Scikit-learn](https://img.shields.io/badge/uses-Scikit--learn-orange.svg)
-
+![Scikit-learn](https://img.shields.io/badge/uses-Scikit--learn-orange?logo=scikitlearn&labelColor=%23778899&color=%23F7931E)
 
 ## 📑 Table of Contents
 
